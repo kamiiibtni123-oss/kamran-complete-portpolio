@@ -2,17 +2,23 @@ const projects = [
   {
     title: "School Management System",
     desc: "A full-stack school management application with authentication and different user roles.",
-    tech: "React • Node.js • Express • MongoDB"
+    tech: "React • Node.js • Express • MongoDB",
+    demo: "https://YOUR-SCHOOL-PROJECT-LINK.vercel.app",
+    github: "https://github.com/kamiiibtni123-oss/YOUR-REPO-NAME"
   },
   {
     title: "E-Commerce Website",
     desc: "A responsive online store with products, authentication and backend API integration.",
-    tech: "React • Node.js • Express • MongoDB"
+    tech: "React • Node.js • Express • MongoDB",
+    demo: "https://zarlala-brand.vercel.app",
+    github: "https://github.com/kamiiibtni123-oss/zarlala-brand"
   },
   {
     title: "Task Management App",
     desc: "A task management application where users can create, update and delete tasks.",
-    tech: "React • REST API • Node.js • MongoDB"
+    tech: "React • REST API • Node.js • MongoDB",
+    demo: "https://frontend-23ks.vercel.app",
+    github: "https://github.com/kamiiibtni123-oss/task-manager-mern"
   }
 ];
 
