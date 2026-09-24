@@ -19,7 +19,14 @@ const projects = [
     tech: "React • REST API • Node.js • MongoDB",
     demo: "https://frontend-23ks.vercel.app",
     github: "https://github.com/kamiiibtni123-oss/task-manager-mern"
-  }
+  },
+  {
+  title: "School Management System",
+  desc: "A school management website with a clean dashboard.",
+  tech: "HTML • CSS • JavaScript",
+  demo: "https://kamiiibtni123-oss.github.io/school-management-system/",
+  github: "https://github.com/kamiiibtni123-oss/school-management-system",
+},
 ];
 
 export default function Projects() {
@@ -35,8 +42,12 @@ export default function Projects() {
             <p>{project.desc}</p>
             <div className="tech">{project.tech}</div>
             <div className="project-buttons">
-              <button type="button">Live Demo</button>
-              <button type="button">GitHub</button>
+              <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                <button type="button">Live Demo</button>
+              </a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer">
+                <button type="button">GitHub</button>
+              </a>
             </div>
           </article>
         ))}
