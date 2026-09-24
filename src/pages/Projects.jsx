@@ -1,11 +1,5 @@
 const projects = [
-  {
-    title: "School Management System",
-    desc: "A full-stack school management application with authentication and different user roles.",
-    tech: "React • Node.js • Express • MongoDB",
-    demo: "https://YOUR-SCHOOL-PROJECT-LINK.vercel.app",
-    github: "https://github.com/kamiiibtni123-oss/YOUR-REPO-NAME"
-  },
+  
   {
     title: "E-Commerce Website",
     desc: "A responsive online store with products, authentication and backend API integration.",
